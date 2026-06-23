@@ -1,6 +1,6 @@
 {
   "name": "@file-viewer/pptx",
-  "version": "2.0.11",
+  "version": "2.1.1",
   "private": false,
   "type": "module",
   "description": "Native PPTX renderer extracted from Flyfish File Viewer",
@@ -9,7 +9,10 @@
     "powerpoint",
     "presentation",
     "file-viewer",
-    "document-preview"
+    "document-preview",
+    "document-viewer",
+    "file-preview",
+    "self-hosted"
   ],
   "publishConfig": {
     "access": "public",
@@ -26,6 +29,10 @@
   "homepage": "https://github.com/flyfish-dev/pptxjs",
   "bugs": {
     "url": "https://github.com/flyfish-dev/pptxjs/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://dev.flyfish.group/shop"
   },
   "main": "./dist/index.js",
   "module": "./dist/index.js",
